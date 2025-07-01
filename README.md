@@ -43,6 +43,8 @@ echo "Pa$$w0rd!2025" >> passlist.txt
 echo "3xT#R%9^uLp@1Z" >> passlist.txt
 ```
 
+![image alt](https://github.com/devalla-jwala/Task-6-Create-a-Strong-Password-and-Evaluate-Its-Strength.Elevate-labs/blob/a1e79ede51b5dd189b4285a79536553a10095692/1.png)
+
 ---
 
 ###  Step 3: Install CLI Password Strength Tools
@@ -51,11 +53,13 @@ echo "3xT#R%9^uLp@1Z" >> passlist.txt
 
 ```bash
 sudo apt update
-sudo apt install libpam-cracklib
+sudo apt install cracklib-runtime
 cat passlist.txt | cracklib-check
 ```
+![imagge alt](https://github.com/devalla-jwala/Task-6-Create-a-Strong-Password-and-Evaluate-Its-Strength.Elevate-labs/blob/a1e79ede51b5dd189b4285a79536553a10095692/2.png)
 
-📌 **Example Output**:
+
+📌 **Output**:
 ```
 password123: it is based on a dictionary word
 Password123: it is based on a dictionary word
@@ -63,15 +67,18 @@ P@ssw0rd123: OK
 Pa$$w0rd!2025: OK
 3xT#R%9^uLp@1Z: OK
 ```
+![image alt](https://github.com/devalla-jwala/Task-6-Create-a-Strong-Password-and-Evaluate-Its-Strength.Elevate-labs/blob/a1e79ede51b5dd189b4285a79536553a10095692/3.png)
 
 ---
 
 ####  Option 2 – `pwscore`
 
 ```bash
-sudo apt install libpwquality-tools
+sudo apt sudo apt install libpwquality-tools
+
 echo "password123" | pwscore
 ```
+![image alt](https://github.com/devalla-jwala/Task-6-Create-a-Strong-Password-and-Evaluate-Its-Strength.Elevate-labs/blob/a1e79ede51b5dd189b4285a79536553a10095692/5.png)
 
 Repeat for each password.
 
@@ -83,6 +90,7 @@ Repeat for each password.
 75
 100
 ```
+![iamge alt](https://github.com/devalla-jwala/Task-6-Create-a-Strong-Password-and-Evaluate-Its-Strength.Elevate-labs/blob/a1e79ede51b5dd189b4285a79536553a10095692/6.png)
 
 ---
 
@@ -95,6 +103,7 @@ Use browser-based tools for visual feedback:
 
 Enter your passwords and note the strength scores, suggestions, and estimated crack time.
 
+![image alt](https://github.com/devalla-jwala/Task-6-Create-a-Strong-Password-and-Evaluate-Its-Strength.Elevate-labs/blob/a1e79ede51b5dd189b4285a79536553a10095692/7.png)
 ---
 
 ###  Step 5: Analyze the Results
