@@ -1,13 +1,12 @@
 # Task-6-Create-a-Strong-Password-and-Evaluate-Its-Strength.Elevate-labs
 Password strength, brute force attack, dictionary attack, authentication,  best practices.
-# 🔐 Task 6 – Create a Strong Password and Evaluate Its Strength (Kali Linux)
 
-## 🎯 Objective
+##  Objective
 Understand how password strength works, test passwords on strength checkers, and learn how to protect against brute force and dictionary attacks using Kali Linux.
 
 ---
 
-## 🧰 Tools Used
+##  Tools Used
 
 | Tool                  | Type | Use                                 |
 |-----------------------|------|--------------------------------------|
