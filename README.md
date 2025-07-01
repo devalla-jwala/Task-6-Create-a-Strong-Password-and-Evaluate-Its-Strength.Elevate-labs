@@ -136,7 +136,7 @@ zcat /usr/share/wordlists/rockyou.txt.gz | head -n 10
 
 ---
 
-###  Step 7: Tips Learned 💡
+###  Step 7: Tips Learned 
 
 - ✅ Use **at least 12 characters**
 - ✅ Combine **uppercase, lowercase, numbers, and symbols**
@@ -146,7 +146,6 @@ zcat /usr/share/wordlists/rockyou.txt.gz | head -n 10
 
 ---
 
-##  Final Summary
 
 ###  Tools Used
 - `cracklib-check` (CLI)
